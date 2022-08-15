@@ -37,6 +37,7 @@ fun PortraitMain() {
             verticalArrangement = Arrangement.Center,
             modifier = Modifier
                 .constrainAs(display_panel) {
+
                     top.linkTo(parent.top)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
